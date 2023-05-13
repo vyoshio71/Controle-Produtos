@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #303030;
+    padding: 20px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+main {
+    padding: 30px 50px 30px 50px;
+}
+
+.card {
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.inputpd {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc
+}
+button {
+    border: 0;
+    padding: 10px;
+    color: aliceblue;
+    background-color: #303030;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all ease 0.4s;
+}
+
+button :hover{
+    background-color: #000;
+}
+
+.container {
+    margin-top: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: #ccc;
+}
+
+table th {
+    background-color: #303030;
+    padding: 1px; 
+    color: aliceblue;
+}
+
+table td {
+    padding: 1px;
+}
+
+table td img{
+    width: 25px;
+}
